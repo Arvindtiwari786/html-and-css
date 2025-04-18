@@ -1,0 +1,24 @@
+/* universal selector */
+*{
+    background-color: brown;
+}
+/* element selector */
+h1{
+    background-color: black;
+    color: brown;
+}
+/* id selector */
+#head{
+    background-color: blue;
+    color: brown;
+}
+/* class selector */
+.common{
+    background-color: aqua;
+    color: blueviolet;
+}
+/* multiple selector */
+#om,
+.para{
+    color: aqua;
+}
