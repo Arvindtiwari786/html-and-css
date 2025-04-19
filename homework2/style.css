@@ -4,7 +4,7 @@ body {
   }
   
   .custom-table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
   }
   
@@ -24,7 +24,7 @@ body {
     border-top: 1px solid #ddd;
   }
   
-  .custom-table tbody tr.highlight {
+  .custom-table tbody tr .highlight {
     background-color: #f3f3f3;
   }
   
@@ -32,4 +32,11 @@ body {
     color: #009879;
     font-weight: bold;
   }
-  
+/* 
+  .highlight{
+    background-color:yellowgreen;
+
+  } */
+  tr:hover{
+    background-color:yellowgreen;
+  }
