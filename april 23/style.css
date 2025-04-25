@@ -1,0 +1,47 @@
+/* nested selector */
+.main div h1 {
+    /* background-color: red;
+    color: aliceblue; */
+background-color: rgba(222, 44, 55, 1);
+
+}
+.main div p {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+    text-align: justify;
+    /* capitalize ,lowercase and uppercase */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+.head span{
+    color: aqua;
+}
+.head{
+    color: blueviolet;
+}
+p span{
+    color: blue;
+}
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    /* shorthand */
+    /* border: dashed 5px blue; */
+    border-top: 3px solid red;
+    border-bottom:3px dotted green ;
+    border-left:3px dashed yellow;
+    border-right: 3px double olivedrab;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
+
+}
+.main{
+    background: url(/green.png) no-repeat center center/cover;
+
+}

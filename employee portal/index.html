@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company HR Portal</title>
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Company HR Portal</h1>
+        <nav>
+        <ul>    
+            <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+            <li class="navitem"><a href="#employee-directory">Employee-Directory</a></li>
+            <li  class="navitem"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <image src="./images/image.jpg" style="width:100%; height: 200px;"></image>
+    <section id="employee-registration" class="registerform">
+        <h2>Employee Registration</h2>
+        <p>Fill the below form to register as <em>employee.</em></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text"id="name"><br><br>
+            <label for="email">Email id:</label>
+            <input type="email"id="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password"id="password"><br><br>
+            <label for="age">Age:</label>
+            <input type="number"id="age"><br><br>
+            <label for="role">Select Role:</label>
+            <select>
+                <option>select</option>
+                <option>Software Engineer</option>
+                <option>Product Manager</option>
+                <option>Designer</option>
+                <option>HR Representative</option>
+            </select><br><br>
+            <label for="joiningdate">Select joining date:</label>
+            <input type="date"id="joiningdate"><br><br>
+            <input type="submit">
+        </form>
+
+    </section>
+    <section id="employee-directory" class="employeetable">
+        <h2>Employee Directory</h2>
+        <p>Directory of all registered employees.</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Role</th>
+               
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Arvind Tiwari</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Shubham Gupta</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Abhishek Parihar</td>
+                <td>Product Manager</td>
+            </tr>
+
+
+        </table>
+    </section>
+    <section id="contact-us" class="contactus">
+        <h2>Contact Us</h2>
+        <p>You can contact us at Company@official.com or Visit us between  9AM - 6PM. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5945882810965!2d78.3404201749358!3d17.43123298346342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb938306e64fe5%3A0x307f939ffcd67d89!2z4KSu4KS-4KSH4KSV4KWN4KSw4KWL4KS44KWJ4KSr4KS84KWN4KSfIOCkh-CkguCkoeCkv-Ckr-Ckvg!5e0!3m2!1shi!2sin!4v1707916410676!5m2!1shi!2sin" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>&2024 Company Name</footer>
+    
+</body>
+</html>

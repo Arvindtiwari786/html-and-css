@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(51, 10, 185, 0.178);
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgb(124, 120, 150);
+    color: aliceblue;
+    text-align: center;
+    padding: 2px;
+}
+footer{
+    background-color: rgb(124, 120, 150);
+    color: aliceblue;
+    text-align: center;
+    padding: 2px;
+
+}
+.navitem{
+    display: inline;
+    padding: 20px;
+}
+.navitem a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.registerform{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse:collapse;
+}
+.employeetable{
+    text-align: center;
+}
+th,td{
+    border: 1px solid rgb(124, 120, 150);
+    padding: 8px;
+}
+.contactus{
+    text-align: center;
+}
