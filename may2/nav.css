@@ -29,6 +29,9 @@
     font-size: 30px;
     display: none;
 }
+#click{
+    display: block;
+}
 /* tablet view */
 @media screen and (max-width: 768px) {
     .logo {

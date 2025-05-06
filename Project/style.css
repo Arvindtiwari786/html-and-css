@@ -17,3 +17,11 @@
    text-align: center;
    
 }
+a{
+    padding: 10px;
+}
+body{
+    background: url(/Project/user-dashboard.avif) no-repeat ;
+    width: 50%;
+    
+}
